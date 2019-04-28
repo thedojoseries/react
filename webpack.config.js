@@ -14,7 +14,11 @@ module.exports = {
         extensions: ['.js','.jsx', '.scss']
     },
     devServer: {
-        historyApiFallback: true
+        historyApiFallback: true,
+        watchOptions: {
+            aggregateTimeout: 300,
+            poll: 1000
+        }
     },
     module: {
         rules: [{

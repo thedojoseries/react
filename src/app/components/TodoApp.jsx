@@ -19,8 +19,6 @@ export class TodoApp extends React.Component{
   }
 
 
-  // Handle remove
-
    // Lifecycle method
   componentDidMount(){
     // Make HTTP reques with Axios

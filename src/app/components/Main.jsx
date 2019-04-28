@@ -9,7 +9,7 @@ import { UpdateTodo } from './UpdateTodo';
 import { store } from '../store';
 import { history } from '../store/history';
 import { Redirect } from 'react-router';
-import { TodoApp } from './TodoContainer';
+import { TodoApp } from './TodoApp';
 
 const RouteGuard = Component =>({match})=>
     !store.getState().session.authenticated ?
