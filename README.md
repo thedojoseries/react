@@ -19,8 +19,8 @@ $ docker build -t react-dojo .
 For Linux/Mac users:
 $ docker run -it -v $PWD:/code -p 8080:8080 -p 7777:7777 react-dojo
 
-For windows users:
-In the above command, replace $PWD with your full current path
+For Windows users:
+$ docker run -it -v <full path of the current folder>:/code -p 8080:8080 -p 7777:7777 react-dojo
 
 Once you are inside the container:
 $ npm run start-dev
