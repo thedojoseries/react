@@ -13,6 +13,7 @@ In this challenge, you are asked to add a few features to an existing TODO appli
 
 Install the dependencies and run the app
 ```sh
+$ git clone https://github.com/slalomdojo/react-dojo.git
 $ cd react-dojo
 $ docker build -t react-dojo .
 
