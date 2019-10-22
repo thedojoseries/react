@@ -30,7 +30,7 @@ After running start-dev, you should see the following:
 ```sh
 [1] i wdm : Compiled successfully
 ```
-Navigate to localhost://8080 on chrome and you can see the app running
+Navigate to localhost:8080 on chrome and you can see the app running
 
 ### Solving the challenge Step by Step
 Since this might be the first time you are working with React, we decided to provide some help. 
