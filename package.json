@@ -33,7 +33,7 @@
     "history": "^4.7.2",
     "md5": "^2.2.1",
     "mongodb": "^3.1.8",
-    "node-sass": "^4.11.0",
+    "node-sass": "^4.13.1",
     "react": "^16.4.2",
     "react-dom": "^16.5.0",
     "react-redux": "^5.0.7",
